@@ -25,7 +25,7 @@ class Square:
 
     @size.setter
     def size(self, value):
-        """sets the size of the square with validation. 
+        """sets the size of the square with validation.
          Args:
             value (int): The new size value.
 
