@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle with visual and formal string representations."""
+"""This module defines a Rectangle."""
 
 
 class Rectangle:
