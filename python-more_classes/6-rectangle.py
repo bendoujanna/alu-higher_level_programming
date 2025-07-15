@@ -52,16 +52,22 @@ class Rectangle:
         return 2 * (self.width + self.height)
 
     def __str__(self):
-        """Return the rectangle printed with '#' characters, or empty string if 0 size."""
+        """Return the rectangle printed with '#' characters
+        or empty string if 0 size
+        """
         if self.width == 0 or self.height == 0:
             return ""
         return "\n".join(["#" * self.width for _ in range(self.height)])
 
     def __repr__(self):
-        """Return string representation able to recreate a new instance via eval()."""
+        """Return string representation able to recreate 
+        a new instance via eval()
+        """
         return f"Rectangle({self.width}, {self.height})"
 
     def __del__(self):
-        """Print message when instance is deleted and decrement instance counter."""
+        """Print message when instance is deleted 
+        decrement instance counter
+        """
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
