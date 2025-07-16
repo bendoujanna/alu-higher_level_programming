@@ -4,4 +4,4 @@
 
 class BaseGeometry:
     """Represents the geometric form"""
-    pass #class is empty
+    pass  #class is empty
