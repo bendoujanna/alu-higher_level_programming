@@ -4,6 +4,7 @@ Defines a Student class with basic attributes and
 a method to return a dictionary representation.
 """
 
+
 class Student:
     def __init__(self, first_name, last_name, age):
         """
