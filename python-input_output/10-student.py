@@ -26,7 +26,8 @@ class Student:
         Args:
             attrs (list or None): List of attribute names to retrieve.
         Returns:
-            dict: Dictionary containing selected attributes or all if attrs is None.
+            dict: Dictionary containing selected attributes 
+            or all if attrs is None.
         """
         if type(attrs) == list:
             return {k: self.__dict__[k] for k in attrs if k in self.__dict__}
