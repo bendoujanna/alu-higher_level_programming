@@ -26,7 +26,7 @@ class Student:
         Args:
             attrs (list or None): List of attribute names to retrieve.
         Returns:
-            dict: Dictionary containing selected attributes 
+            dict: Dictionary containing selected attributes
             or all if attrs is None.
         """
         if type(attrs) == list:
