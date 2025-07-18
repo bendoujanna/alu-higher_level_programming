@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+"""That module returns a list a int representing the
+Pascal's triangle of n"""
+
+
+
 def pascal_triangle(n):
     """
     Generate Pascal's Triangle of size n.
