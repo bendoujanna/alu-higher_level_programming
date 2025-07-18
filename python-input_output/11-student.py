@@ -4,6 +4,7 @@ This module defines a Student class with methods
 to serialize and deserialize student instances.
 """
 
+
 class Student:
     """
     Defines a student with first name, last name, and age.
