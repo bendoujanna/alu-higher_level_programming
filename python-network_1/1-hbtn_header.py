@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-"""
-Sends a request to the given URL and displays the value of the
-X-Request-Id variable from the response header.
-"""
+"""I documented you"""
 
 import urllib.request
 import sys
 
-url = sys.argv[1]
-
-with urllib.request.urlopen(url) as response:
-    headers = response.info()
-    print(headers.get("X-Request-Id"))
+if __name__ == '__main__':
+    with urllib.request.urlopen(sys.argv[1]) as response:
+        header = response.info()
+        print(header["X-Request-Id"])
