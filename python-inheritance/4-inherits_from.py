@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-"""True if the obj is inst of subclass of a_class, else false"""
+"""Checks object class"""
 
 
 def inherits_from(obj, a_class):
-    """True if obj is instance of subclass of a_class, else False."""
-    return isinstance(obj, a_class) and type(obj) is not a_class
+    """Checks object class
+    Args:
+        - obj: object to class
+        - a_class: class to check
+    """
+    return isinstance(obj, a_class) and type(obj) != a_class
